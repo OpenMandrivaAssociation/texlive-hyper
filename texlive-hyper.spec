@@ -1,3 +1,9 @@
+# revision 17357
+# category Package
+# catalog-ctan /macros/latex/contrib/hyper
+# catalog-date 2010-03-06 16:54:30 +0100
+# catalog-license lppl
+# catalog-version 4.2d
 Name:		texlive-hyper
 Version:	4.2d
 Release:	1
@@ -83,6 +89,7 @@ xdvi. The package is now largely superseded by hyperref.
 %doc %{_texmfdistdir}/source/latex/hyper/dvi2pdf.pl
 %doc %{_texmfdistdir}/source/latex/hyper/hyper.dtx
 %doc %{_texmfdistdir}/source/latex/hyper/hyper.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -93,3 +100,5 @@ xdvi. The package is now largely superseded by hyperref.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
