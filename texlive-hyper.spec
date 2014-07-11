@@ -6,7 +6,7 @@
 # catalog-version 4.2d
 Name:		texlive-hyper
 Version:	4.2d
-Release:	7
+Release:	8
 Summary:	Hypertext cross referencing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hyper
