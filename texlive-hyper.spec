@@ -1,6 +1,6 @@
 Name:		texlive-hyper
 Version:	17357
-Release:	1
+Release:	2
 Summary:	Hypertext cross referencing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hyper
