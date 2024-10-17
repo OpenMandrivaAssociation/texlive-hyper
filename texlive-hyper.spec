@@ -3,7 +3,7 @@ Version:	17357
 Release:	2
 Summary:	Hypertext cross referencing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/hyper
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/hyper
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyper.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/hyper.doc.r%{version}.tar.xz
